@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+     --color: #ff4800;
+     --text: #fff;
+     --bg: #000;
+
+     font-size: 20px;
+}
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Inter', sans-serif;
+     height: 100vh;
+     width: 100vw;
+     position: relative;
+}
+
+
+.soon {
+     display: inline-block;
+     height: 50px;
+     width: 300px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-weight: 500;
+     font-size: 1.5rem;
+     text-align: center;
+}
+
+.socials {
+     height: 70px;
+     width: 300px;
+     position: absolute;
+     bottom: 15px;
+     left: 1px;
+     padding: 12px;
+}
+
+.social {
+     border-bottom: 3px solid var(--blue);
+     color: black;
+     text-decoration: none;
+     font-size: 1rem;
+     font-weight: 400;
+     margin: auto 10px;
+     padding: 3px 7px;
+}
+
+.social:hover, .social:active {
+     background-color: var(--blue);
+     border-bottom: 3px solid var(--blue);
+     color: var(--blue-dark);
+     text-decoration: none;
+}
+
+@media screen and (min-width: 600px){
+
+
+     
+     .soon {
+          display: inline-block;
+          height: 70px;
+          width: 400px;
+          position: absolute;
+          top: 50%;
+          left: 250px;
+          transform: translate(-50%, -50%);
+          font-size: 2rem;
+     }
+     
+     .socials {
+          height: 70px;
+          width: 400px;
+          position: absolute;
+          bottom: 15px;
+          left: 1px;
+          padding: 12px;
+     }
+
+     .social {
+          font-size: 1.2rem;
+          margin: auto 12px;
+          padding: 5px 10px;
+     }
+}
+
+
+@media (prefers-color-scheme: dark) {
+     
+     :root {
+          --color: #ff4800;
+          --text: #ffffff;
+          --bg: #0f0f0f;
+     }
+
+}
