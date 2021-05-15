@@ -18,10 +18,59 @@
 </head>
 <body>
 
-     
-     <h1 class="info">Тестування веб-функцій</h1>
-     <button class="start">Дізнатись більше <span class="arrow"> ➔ </span></button>
+     <div class="wrap">
+          <div class="interactive">
 
+               <p class="info">
+                    Ми є результато-орієнтованою агенцією. <br>
+                    ми думаємо рішеннями, а не проблемами! <br>
+                    <br>
+                    Як це, запитаєтесь Ви? Дуже просто: <br> 
+                    Виберіть будь-що з перерахованого нижче <br> 
+                    (можливо те, з чим Ви вже зустрічались) <br> 
+                    натисніть та перетягніть це до рамки. <br> 
+               </p>
 
+               <div class="problems">
+                    <span class="problem problem-clients" draggable="true">Клієнтам не подобається мій сайт</span>
+                    <span class="problem">В мене мало підписників в інстаграм</span>
+                    <span class="problem">Реклама не дає бажаного результату</span>
+               </div>
+
+               <div class="box">
+                    <span class="box-input">
+                         <p class="box-info">Перетягніть сюди якусь з проблем</p>
+                    </span>
+               </div>
+
+               <div class="solutions solutions-hide">
+                    <div class="solution-info">
+                         <p>Звичайно, що в цієї проблеми можуть бути різні причини:
+                               починаючи від невпорядкованих запитів на сервер і 
+                               закінчуючи абсолютно неінтуїтивним UI/UX дизайном. 
+                               Як діяти? Спочатку, оцінивши загальну ситуацію, 
+                               виявити ті елементи, що гальмують нормальну 
+                               роботу сайту та поступово опрацьовувати кожний з них. 
+                               Можливі дії для вирішення проблеми:</p>
+                    </div>
+
+                    <div class="solution-tips">
+                         <ul>
+                              <li class="solution-tip"> <span class="tip-arrow">➔</span> Комплексний технічний аудит</li>
+                              <li class="solution-tip"> <span class="tip-arrow">➔</span> Перевірка зовнішніх ресурсів</li>
+                              <li class="solution-tip"> <span class="tip-arrow">➔</span> Покращення користувацької взаємодії</li>
+                              <li class="solution-tip"> <span class="tip-arrow">➔</span> Реалізація розробницьких практик</li>
+                              <li class="solution-tip"> <span class="tip-arrow">➔</span> Вдосконалення структури та логіки коду</li>
+                         </ul>
+                    </div>
+               </div>
+
+          </div>
+          <div class="modal">
+
+          </div>
+     </div>
+
+     <script src="./js/drag.js"></script>
 </body>
 </html>
