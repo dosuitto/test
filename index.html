@@ -66,11 +66,30 @@
                </div>
 
           </div>
-          <div class="modal">
+          <div class="modal-wrap">
+
+               <button class="modal-btn" data-modal-target="#modal" >Розпочати співпрацю!</button>
+               <div class="modal" id="modal">
+                    <div class="modal-header">
+                         <div class="title">Форма для заповнення</div>
+                         <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                         <div class="modal-card">
+                              <label class="input">
+                                <input class="input-field" type="text" placeholder=" ">
+                                <span class="input-label">Ім'я</span>
+                              </label>
+                         </div>
+                    </div>
+               </div>
+               <div id="overlay"></div>
 
           </div>
+
      </div>
 
      <script src="./js/drag.js"></script>
+     <script src="./js/modal.js"></script>
 </body>
 </html>
